@@ -20,7 +20,7 @@ h1 {
   margin-bottom: 16px;
 }
 
-input {
+.url-input {
   appearance: none;
   outline: none;
   border: none;
@@ -30,6 +30,19 @@ input {
   padding: 20px 16px;
   border-radius: 8px;
   margin-right: 16px;
+}
+
+.color-qrcode {
+  width: 50%;
+  display: contents;
+}
+
+label {
+  font-weight: 600;
+}
+
+.color-input {
+  margin-right: 35px;
 }
 
 button, a {
